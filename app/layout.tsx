@@ -3,17 +3,20 @@ import type { Metadata } from "next"
 import { Anton, Poppins } from "next/font/google"
 import "./globals.css"
 import AnnouncementBar from "@/components/announcement-bar"
+import PerformanceMonitor from "@/components/performance-monitor"
 
 const anton = Anton({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-anton",
+  display: "swap",
 })
 
 const poppins = Poppins({
   weight: ["400", "600", "800"],
   subsets: ["latin"],
   variable: "--font-poppins",
+  display: "swap",
 })
 
 export const metadata: Metadata = {
@@ -87,7 +90,6 @@ export const metadata: Metadata = {
     canonical: "https://www.jannethaguirre.online",
   },
   category: "business",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -108,6 +110,14 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-navbutton-color" content="#ffffff" />
         <meta name="msapplication-tap-highlight" content="no" />
+
+        {/* Preload critical resources */}
+        <link rel="preload" href="/images/logo-magazine.webp" as="image" type="image/webp" />
+        <link rel="preload" href="/images/banner-principal-magazine.webp" as="image" type="image/webp" />
+
+        {/* DNS prefetch for external domains */}
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="//www.youtube.com" />
 
         {/* Structured Data */}
         <script
@@ -136,6 +146,7 @@ export default function RootLayout({
       <body className={`${anton.variable} ${poppins.variable} antialiased`}>
         <AnnouncementBar />
         {children}
+        <PerformanceMonitor />
         <script
           dangerouslySetInnerHTML={{
             __html: `

@@ -97,7 +97,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es">
+    <html lang="es" className={`${anton.variable} ${poppins.variable}`}>
       <head>
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -142,7 +142,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${anton.variable} ${poppins.variable} antialiased`}>
+      <body className="antialiased">
         <AnnouncementBar />
         {children}
         <script

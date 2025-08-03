@@ -57,16 +57,7 @@ export default function Home() {
                 }`}
               >
                 <div className={`relative ${index === 0 ? "h-64 md:h-80" : "h-48"}`}>
-                  <Image
-                    src={
-                      article.image.startsWith("http")
-                        ? article.image
-                        : `/placeholder.svg?height=${index === 0 ? "400" : "300"}&width=${index === 0 ? "800" : "400"}&query=${encodeURIComponent(article.title)}`
-                    }
-                    alt={article.title}
-                    fill
-                    className="object-cover"
-                  />
+                  <Image src={article.image || "/placeholder.svg"} alt={article.title} fill className="object-cover" />
                   <div className="absolute top-4 left-4">
                     <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-poppins font-semibold capitalize">
                       {article.category}

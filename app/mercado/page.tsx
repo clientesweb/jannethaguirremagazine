@@ -44,7 +44,16 @@ export default function MercadoPage() {
                 className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="relative h-48">
-                  <Image src={article.image || "/placeholder.svg"} alt={article.title} fill className="object-cover" />
+                  <Image
+                    src={
+                      article.image.startsWith("http")
+                        ? article.image
+                        : `/placeholder.svg?height=300&width=400&query=${encodeURIComponent(article.title)}`
+                    }
+                    alt={article.title}
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="p-6">
                   <div className="flex items-center mb-3">

@@ -23,7 +23,9 @@ export const metadata: Metadata = {
 }
 
 export default function FinanzasPage() {
-  const articles = getArticlesByCategory("finanzas")
+  const allArticles = getArticlesByCategory("finanzas")
+  // Mostrar solo los primeros 9 artículos inicialmente
+  const articles = allArticles.slice(0, 9)
 
   return (
     <div className="min-h-screen bg-white">
@@ -38,13 +40,21 @@ export default function FinanzasPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {articles.map((article) => (
+            {articles.map((article, index) => (
               <article
                 key={article.id}
                 className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="relative h-48">
-                  <Image src={article.image || "/placeholder.svg"} alt={article.title} fill className="object-cover" />
+                  <Image
+                    src={article.image || "/placeholder.svg"}
+                    alt={article.title}
+                    fill
+                    className="object-cover"
+                    loading={index < 3 ? "eager" : "lazy"}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    quality={75}
+                  />
                 </div>
                 <div className="p-6">
                   <div className="flex items-center mb-3">
@@ -59,6 +69,7 @@ export default function FinanzasPage() {
                   <Link
                     href={`/finanzas/${article.slug}`}
                     className="inline-flex items-center font-poppins font-semibold text-primary hover:text-primary/80 transition-colors"
+                    prefetch={index < 3}
                   >
                     Leer más →
                   </Link>
@@ -66,6 +77,18 @@ export default function FinanzasPage() {
               </article>
             ))}
           </div>
+
+          {/* Mostrar información de paginación si hay más artículos */}
+          {allArticles.length > 9 && (
+            <div className="text-center mt-12">
+              <p className="font-poppins font-semibold text-gray-600 mb-4">
+                Mostrando {articles.length} de {allArticles.length} artículos
+              </p>
+              <button className="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-lg font-poppins font-semibold transition-colors duration-300">
+                Cargar más artículos
+              </button>
+            </div>
+          )}
         </div>
       </main>
       <AppBanner />

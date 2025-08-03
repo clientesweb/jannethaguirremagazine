@@ -3,7 +3,7 @@ const nextConfig = {
   // Optimizaciones de rendimiento
   experimental: {
     optimizeCss: true,
-    optimizePackageImports: ['lucide-react'],
+    optimizePackageImports: ['lucide-react', '@radix-ui/react-slot', '@radix-ui/react-dialog'],
   },
   
   // Configuración de imágenes optimizada

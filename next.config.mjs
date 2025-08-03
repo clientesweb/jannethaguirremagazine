@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Optimizaciones de rendimiento
+  // Desactivar optimizeCss temporalmente para evitar el error de critters
   experimental: {
-    optimizeCss: true,
     optimizePackageImports: ['lucide-react', '@radix-ui/react-slot', '@radix-ui/react-dialog'],
   },
   
@@ -121,6 +120,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  
+  // Configuración de salida para mejor compatibilidad
+  output: 'standalone',
 }
 
 export default nextConfig

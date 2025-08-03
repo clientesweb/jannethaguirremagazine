@@ -14,7 +14,20 @@ const nextConfig = {
     minimumCacheTTL: 31536000, // 1 año
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'hebbkx1anhila5yf.public.blob.vercel-storage.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'blob.v0.dev',
+      }
+    ],
   },
 
   // Compresión y optimización

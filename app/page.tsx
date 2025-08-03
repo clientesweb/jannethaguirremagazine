@@ -8,6 +8,7 @@ import { getAllArticles } from "@/lib/articles"
 import Link from "next/link"
 import Image from "next/image"
 import type { Metadata } from "next"
+import { Suspense } from "react"
 
 export const metadata: Metadata = {
   title: "Inicio",
@@ -25,6 +26,24 @@ export const metadata: Metadata = {
       "Mantente al día con las últimas noticias del sector inmobiliario, análisis de mercado y oportunidades de inversión.",
     images: ["/og-image-inicio.jpg"],
   },
+}
+
+// Componente para el loading de artículos
+function ArticlesSkeleton() {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {[...Array(4)].map((_, i) => (
+        <div key={i} className="bg-white rounded-lg shadow-lg overflow-hidden animate-pulse">
+          <div className="h-48 bg-gray-200"></div>
+          <div className="p-6">
+            <div className="h-4 bg-gray-200 rounded mb-3"></div>
+            <div className="h-6 bg-gray-200 rounded mb-3"></div>
+            <div className="h-4 bg-gray-200 rounded"></div>
+          </div>
+        </div>
+      ))}
+    </div>
+  )
 }
 
 export default function Home() {
@@ -48,53 +67,55 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {latestArticles.map((article, index) => (
-              <article
-                key={article.id}
-                className={`bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 ${
-                  index === 0 ? "md:col-span-2 lg:col-span-2" : ""
-                }`}
-              >
-                <div className={`relative ${index === 0 ? "h-64 md:h-80" : "h-48"}`}>
-                  <Image
-                    src={article.image || "/placeholder.svg"}
-                    alt={article.title}
-                    fill
-                    className="object-cover"
-                    loading={index === 0 ? "eager" : "lazy"}
-                    sizes={
-                      index === 0
-                        ? "(max-width: 768px) 100vw, (max-width: 1024px) 66vw, 50vw"
-                        : "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    }
-                    quality={index === 0 ? 90 : 75}
-                  />
-                  <div className="absolute top-4 left-4">
-                    <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-poppins font-semibold capitalize">
-                      {article.category}
-                    </span>
+          <Suspense fallback={<ArticlesSkeleton />}>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {latestArticles.map((article, index) => (
+                <article
+                  key={article.id}
+                  className={`bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 ${
+                    index === 0 ? "md:col-span-2 lg:col-span-2" : ""
+                  }`}
+                >
+                  <div className={`relative ${index === 0 ? "h-64 md:h-80" : "h-48"}`}>
+                    <Image
+                      src={article.image || "/placeholder.svg"}
+                      alt={article.title}
+                      fill
+                      className="object-cover"
+                      loading={index === 0 ? "eager" : "lazy"}
+                      sizes={
+                        index === 0
+                          ? "(max-width: 768px) 100vw, (max-width: 1024px) 66vw, 50vw"
+                          : "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      }
+                      quality={index === 0 ? 90 : 75}
+                    />
+                    <div className="absolute top-4 left-4">
+                      <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-poppins font-semibold capitalize">
+                        {article.category}
+                      </span>
+                    </div>
                   </div>
-                </div>
-                <div className="p-6">
-                  <h2
-                    className={`font-poppins font-extrabold text-gray-900 mb-3 line-clamp-2 ${
-                      index === 0 ? "text-xl md:text-2xl" : "text-lg"
-                    }`}
-                  >
-                    {article.title}
-                  </h2>
-                  <p className="font-poppins font-semibold text-gray-600 mb-4 line-clamp-3">{article.description}</p>
-                  <Link
-                    href={`/${article.category}/${article.slug}`}
-                    className="inline-flex items-center font-poppins font-semibold text-primary hover:text-primary/80 transition-colors"
-                  >
-                    Leer más →
-                  </Link>
-                </div>
-              </article>
-            ))}
-          </div>
+                  <div className="p-6">
+                    <h2
+                      className={`font-poppins font-extrabold text-gray-900 mb-3 line-clamp-2 ${
+                        index === 0 ? "text-xl md:text-2xl" : "text-lg"
+                      }`}
+                    >
+                      {article.title}
+                    </h2>
+                    <p className="font-poppins font-semibold text-gray-600 mb-4 line-clamp-3">{article.description}</p>
+                    <Link
+                      href={`/${article.category}/${article.slug}`}
+                      className="inline-flex items-center font-poppins font-semibold text-primary hover:text-primary/80 transition-colors"
+                    >
+                      Leer más →
+                    </Link>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </Suspense>
 
           {/* Botón para ver todas las noticias */}
           <div className="text-center mt-12">
@@ -109,9 +130,9 @@ export default function Home() {
       </section>
 
       {/* Sección de Video con lazy loading */}
-      <div className="lazy-video">
+      <Suspense fallback={<div className="h-96 bg-gray-100 animate-pulse"></div>}>
         <YouTubeVideo videoId="XsrT_U7qE50" />
-      </div>
+      </Suspense>
 
       {/* Banner de App */}
       <AppBanner />

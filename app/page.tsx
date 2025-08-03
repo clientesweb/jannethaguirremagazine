@@ -28,9 +28,9 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
-  // Obtener los 5 artículos más recientes (los últimos en el array)
+  // Obtener solo los 4 artículos más recientes para mejorar rendimiento
   const allArticles = getAllArticles()
-  const latestArticles = allArticles.slice(-5).reverse() // Últimos 5 en orden inverso
+  const latestArticles = allArticles.slice(-4).reverse() // Últimos 4 en orden inverso
 
   return (
     <div className="min-h-screen bg-white">
@@ -57,7 +57,19 @@ export default function Home() {
                 }`}
               >
                 <div className={`relative ${index === 0 ? "h-64 md:h-80" : "h-48"}`}>
-                  <Image src={article.image || "/placeholder.svg"} alt={article.title} fill className="object-cover" />
+                  <Image
+                    src={article.image || "/placeholder.svg"}
+                    alt={article.title}
+                    fill
+                    className="object-cover"
+                    loading={index === 0 ? "eager" : "lazy"}
+                    sizes={
+                      index === 0
+                        ? "(max-width: 768px) 100vw, (max-width: 1024px) 66vw, 50vw"
+                        : "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    }
+                    quality={index === 0 ? 90 : 75}
+                  />
                   <div className="absolute top-4 left-4">
                     <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-poppins font-semibold capitalize">
                       {article.category}
@@ -96,8 +108,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Sección de Video */}
-      <YouTubeVideo videoId="XsrT_U7qE50" />
+      {/* Sección de Video con lazy loading */}
+      <div className="lazy-video">
+        <YouTubeVideo videoId="XsrT_U7qE50" />
+      </div>
 
       {/* Banner de App */}
       <AppBanner />

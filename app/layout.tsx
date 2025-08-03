@@ -3,7 +3,6 @@ import type { Metadata } from "next"
 import { Anton, Poppins } from "next/font/google"
 import "./globals.css"
 import AnnouncementBar from "@/components/announcement-bar"
-import PerformanceMonitor from "@/components/performance-monitor"
 
 const anton = Anton({
   weight: "400",
@@ -146,7 +145,6 @@ export default function RootLayout({
       <body className={`${anton.variable} ${poppins.variable} antialiased`}>
         <AnnouncementBar />
         {children}
-        <PerformanceMonitor />
         <script
           dangerouslySetInnerHTML={{
             __html: `

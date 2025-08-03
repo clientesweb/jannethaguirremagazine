@@ -13,6 +13,7 @@ interface OptimizedImageProps {
   sizes?: string
   quality?: number
   fill?: boolean
+  loading?: "lazy" | "eager"
 }
 
 export default function OptimizedImage({
@@ -25,6 +26,7 @@ export default function OptimizedImage({
   sizes = "100vw",
   quality = 75,
   fill = false,
+  loading = "lazy",
 }: OptimizedImageProps) {
   const [isLoading, setIsLoading] = useState(true)
   const [hasError, setHasError] = useState(false)
@@ -47,9 +49,9 @@ export default function OptimizedImage({
   }
 
   return (
-    <div className={`relative ${className}`}>
+    <div className={`relative ${fill ? "" : className}`}>
       {isLoading && (
-        <div className="absolute inset-0 bg-gray-200 animate-pulse flex items-center justify-center">
+        <div className="absolute inset-0 bg-gray-200 animate-pulse flex items-center justify-center z-10">
           <div className="w-8 h-8 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
         </div>
       )}
@@ -60,10 +62,10 @@ export default function OptimizedImage({
         height={fill ? undefined : height}
         fill={fill}
         className={`transition-opacity duration-300 ${isLoading ? "opacity-0" : "opacity-100"} ${
-          fill ? "object-cover" : ""
+          fill ? `object-cover ${className}` : className
         }`}
         priority={priority}
-        loading={priority ? "eager" : "lazy"}
+        loading={priority ? "eager" : loading}
         sizes={sizes}
         quality={quality}
         onLoad={handleLoad}

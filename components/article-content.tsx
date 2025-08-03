@@ -29,7 +29,7 @@ export default function ArticleContent({ article }: ArticleContentProps) {
         return (
           <div key={index} className="my-8">
             <Image
-              src={imageUrl.startsWith("http") ? imageUrl : `/public/${encodeURIComponent(imageUrl)}`}
+              src={imageUrl || "/placeholder.svg"}
               alt="Imagen del artículo"
               width={800}
               height={400}
@@ -112,7 +112,7 @@ export default function ArticleContent({ article }: ArticleContentProps) {
         {/* Imagen principal */}
         <div className="mb-8">
           <Image
-            src={article.image.startsWith("http") ? article.image : `/public/${encodeURIComponent(article.image)}`}
+            src={article.image || "/placeholder.svg"}
             alt={article.title}
             width={1000}
             height={500}

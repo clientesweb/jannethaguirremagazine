@@ -29,11 +29,7 @@ export default function ArticleContent({ article }: ArticleContentProps) {
         return (
           <div key={index} className="my-8">
             <Image
-              src={
-                imageUrl.startsWith("http")
-                  ? imageUrl
-                  : `/placeholder.svg?height=400&width=800&query=${encodeURIComponent(imageUrl)}`
-              }
+              src={imageUrl.startsWith("http") ? imageUrl : `/public/${encodeURIComponent(imageUrl)}`}
               alt="Imagen del artículo"
               width={800}
               height={400}
@@ -103,7 +99,7 @@ export default function ArticleContent({ article }: ArticleContentProps) {
           </span>
           <div className="flex items-center text-gray-500 text-sm font-poppins font-semibold">
             <Calendar className="h-4 w-4 mr-1" />
-            <span>Enero 2025</span>
+            <span>Publicado recientemente</span>
           </div>
         </div>
 
@@ -116,11 +112,7 @@ export default function ArticleContent({ article }: ArticleContentProps) {
         {/* Imagen principal */}
         <div className="mb-8">
           <Image
-            src={
-              article.image.startsWith("http")
-                ? article.image
-                : `/placeholder.svg?height=500&width=1000&query=${encodeURIComponent(article.title)}`
-            }
+            src={article.image.startsWith("http") ? article.image : `/public/${encodeURIComponent(article.image)}`}
             alt={article.title}
             width={1000}
             height={500}

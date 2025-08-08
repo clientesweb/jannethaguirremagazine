@@ -590,6 +590,93 @@ El fideicomiso se ha consolidado como una herramienta versátil y confiable para
 
 Autor: Ingeniero Comercial Especializado en Finanzas Carlos Flores`,
   },
+  {
+    id: 30,
+    title: "¿Qué es un proyecto de renta y por qué está ganando terreno en el mercado inmobiliario?",
+    description:
+      "En los últimos años, el mercado inmobiliario de México, Brasil, Chile, Colombia, EEUU y recientemente el peruano, han intensificado el interés en los llamados proyectos de renta, una categoría de inversión que rompe con el modelo tradicional de comprar para vender.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-11.jpg-aciLxiKbsjCD7X2aEd3YVg6rXVbg4I.jpeg",
+    slug: "proyectos-renta-mercado-inmobiliario-tendencia",
+    category: "mercado",
+    subtitle: "Una nueva modalidad de inversión inmobiliaria que genera ingresos recurrentes",
+    importantFact:
+      "📈 Los proyectos de renta están transformando el mercado inmobiliario latinoamericano, ofreciendo rentabilidad sostenida a largo plazo a través del arrendamiento en lugar de la venta tradicional.",
+    fullContent: `En los últimos años, el mercado inmobiliario de México, Brasil, Chile, Colombia, EEUU y recientemente el peruano, han intensificado el interés en los llamados **proyectos de renta**, una categoría de inversión que rompe con el modelo tradicional de comprar para vender. Estos proyectos están diseñados específicamente para generar ingresos recurrentes a través del arrendamiento, y se configuran como una respuesta estructurada y estratégica ante la evolución de las ciudades, el acceso a vivienda, y las nuevas dinámicas económicas y demográficas.
+
+[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-11.jpg-aciLxiKbsjCD7X2aEd3YVg6rXVbg4I.jpeg]
+
+**¿Qué es un proyecto de renta?**
+
+Un proyecto de renta es una edificación inmobiliaria pensada, diseñada y financiada con el objetivo de alquilar sus unidades, no de venderlas. Esto cambia el enfoque del negocio: en lugar de obtener una ganancia rápida por venta, se busca una rentabilidad sostenida a largo plazo a través del cobro de alquileres.
+
+Este modelo implica una lógica financiera distinta. La rentabilidad se mide en función de:
+
+• Rendimiento mensual del alquiler
+• Revalorización del activo en el tiempo
+• Costos de mantenimiento y operación
+• Tasa de ocupación o vacancia
+
+**¿Qué tipo de proyectos inmobiliarios para renta existen?**
+
+Existen diversos tipos de inmuebles destinados a renta, según su función y público objetivo. Los más destacados son:
+
+**1. Multifamily**
+Edificios residenciales completos con múltiples departamentos de una sola propiedad (no unidades vendidas a terceros), que se alquilan en su totalidad. Muy comunes en países como México, Chile, Colombia y EE.UU.
+
+**2. Coliving**
+Espacios compartidos diseñados para jóvenes profesionales, estudiantes o trabajadores temporales, con habitaciones privadas y zonas comunes (cocina, lavandería, coworking). Favorecen la comunidad y la flexibilidad de contrato.
+
+**3. Residencias universitarias**
+Edificios pensados exclusivamente para estudiantes, con características de seguridad, ubicación cercana a centros educativos y espacios adaptados a sus necesidades.
+
+**4. Departamentos temporales (mid-stay)**
+Destinados a estancias medias (30 días a 6 meses). Usualmente usados por ejecutivos, trabajadores remotos, pacientes en tratamiento médico, etc.
+
+**5. Edificios para renta corporativa o empresarial**
+Destinados a alquilar oficinas, consultorios, o espacios comerciales. Suelen tener características modulares y servicios comunes.
+
+**¿Qué perfiles de personas usan estos proyectos?**
+
+La demanda de unidades en proyectos de renta proviene de una diversidad de perfiles. Algunos de los más frecuentes son:
+
+• Jóvenes profesionales que buscan independencia y flexibilidad sin comprometerse con una hipoteca
+• Trabajadores temporales o relocalizados por empresas o proyectos
+• Estudiantes universitarios, especialmente foráneos o extranjeros
+• Personas solas o parejas sin hijos, que valoran la ubicación céntrica y los servicios comunes
+• Adultos mayores, en algunos casos, que prefieren vivir en zonas accesibles con mantenimiento incluido
+• Familias con ingresos variables que no califican para una hipoteca o prefieren no endeudarse
+
+**¿Qué se recomienda al desarrollar un proyecto de renta?**
+
+Para que un proyecto de renta tenga éxito, se destacan varias recomendaciones clave:
+
+**1. Ubicación estratégica**
+El proyecto debe ubicarse en zonas con alta demanda de alquiler: cerca de universidades, polos de empleo, hospitales, o transporte público. La ubicación determina en gran parte la ocupación y el valor del alquiler.
+
+**2. Diseño funcional**
+Unidades más pequeñas pero bien resueltas, con buen equipamiento, facilidad de mantenimiento y espacios compartidos que agreguen valor. El objetivo es optimizar cada metro cuadrado.
+
+**3. Gestión profesional**
+Un multifamily no es solo un edificio: es una operación inmobiliaria continua. Requiere un equipo que se encargue de la gestión de contratos, mantenimiento, atención al inquilino, y control de costos.
+
+**4. Modelo financiero sólido**
+La inversión debe sustentarse en un flujo de caja claro, con supuestos realistas sobre tasa de ocupación, renta mensual, gastos operativos, vacancia y reposición de inquilinos.
+
+**5. Perfil claro del inquilino**
+Desde la etapa de concepción del proyecto debe estar claro para qué tipo de público se está diseñando. Esto permite definir el mix de unidades, los servicios ofrecidos y hasta el lenguaje de marketing.
+
+**6. Blindaje legal y fiscal**
+El modelo debe considerar un fideicomiso o estructura societaria que permita una operación profesional, clara y segura. Además, entender las implicancias tributarias en función del volumen de ingresos y tipo de sociedad.
+
+**Conclusión**
+
+En resumen, los proyectos de renta se están consolidando como una alternativa atractiva en el mercado inmobiliario peruano, en especial frente a escenarios de menor poder adquisitivo y altos costos de financiamiento para la compra. Pero no basta con tener un edificio y alquilarlo: se requiere enfoque estratégico, visión de largo plazo y profesionalismo en la gestión para convertirlo en una inversión rentable y sostenible.
+
+---
+
+**Autor:** Fernando Velarde  
+Analista de Mercados Inmobiliarios Internacionales`,
+  },
 ]
 
 // Función para obtener artículo por categoría y slug

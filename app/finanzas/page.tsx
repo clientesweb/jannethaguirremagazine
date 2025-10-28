@@ -1,6 +1,7 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import AppBanner from "@/components/app-banner"
+import CTABanner from "@/components/cta-banner"
 import { getArticlesByCategory } from "@/lib/articles"
 import Link from "next/link"
 import Image from "next/image"
@@ -91,6 +92,7 @@ export default function FinanzasPage() {
           )}
         </div>
       </main>
+      <CTABanner />
       <AppBanner />
       <Footer />
     </div>

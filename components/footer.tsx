@@ -108,14 +108,18 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
-                <div>
-                  <p className="font-poppins font-semibold text-gray-300">Email</p>
-                  <Link
-                    href="mailto:jannethaguirremagazine@gmail.com"
-                    className="font-poppins font-semibold text-white hover:text-primary transition-colors duration-300"
+                <div className="flex-1">
+                  <p className="font-poppins font-semibold text-gray-300 mb-2">Email</p>
+                  <button
+                    onClick={() => {
+                      const message = "Hola! Me gustaría contactarme con ustedes."
+                      const whatsappUrl = `https://wa.me/593982573799?text=${encodeURIComponent(message)}`
+                      window.open(whatsappUrl, "_blank")
+                    }}
+                    className="bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-lg font-poppins font-semibold text-sm transition-colors duration-300 w-full"
                   >
-                    jannethaguirremagazine@gmail.com
-                  </Link>
+                    Enviar Email
+                  </button>
                 </div>
               </div>
 
@@ -165,7 +169,8 @@ export default function Footer() {
               />
               <button
                 onClick={() => {
-                  const email = document.getElementById("newsletter-email").value
+                  const emailInput = document.getElementById("newsletter-email") as HTMLInputElement
+                  const email = emailInput?.value
                   if (email) {
                     const message = `Hola! Me gustaría suscribirme al newsletter de Janneth Aguirre Magazine. Mi email es: ${email}`
                     const whatsappUrl = `https://wa.me/593982573799?text=${encodeURIComponent(message)}`

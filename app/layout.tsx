@@ -19,7 +19,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.jannethaguirre.online"),
+  metadataBase: new URL("https://www.jannethaguirremagazine.com"),
   title: {
     default: "Magazine Bienes Raíces - Janneth Aguirre | Información Inmobiliaria Confiable",
     template: "%s | Magazine Bienes Raíces - Janneth Aguirre",
@@ -38,6 +38,12 @@ export const metadata: Metadata = {
     "Guayaquil",
     "Samborondón",
     "magazine inmobiliario",
+    "propiedades en venta Ecuador",
+    "asesoría inmobiliaria",
+    "inversiones rentables",
+    "desarrollo inmobiliario",
+    "tendencias inmobiliarias",
+    "compra venta propiedades",
   ],
   authors: [{ name: "Janneth Aguirre", url: "https://www.jannethaguirre.com" }],
   creator: "Janneth Aguirre",
@@ -50,7 +56,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_EC",
-    url: "https://www.jannethaguirre.online",
+    url: "https://www.jannethaguirremagazine.com",
     siteName: "Magazine Bienes Raíces - Janneth Aguirre",
     title: "Magazine Bienes Raíces - Janneth Aguirre | Información Inmobiliaria Confiable",
     description:
@@ -86,9 +92,13 @@ export const metadata: Metadata = {
     google: "your-google-verification-code",
   },
   alternates: {
-    canonical: "https://www.jannethaguirre.online",
+    canonical: "https://www.jannethaguirremagazine.com",
+    languages: {
+      "es-EC": "https://www.jannethaguirremagazine.com",
+    },
   },
   category: "business",
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
@@ -101,13 +111,13 @@ export default function RootLayout({
       <head>
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#F04438" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="light-content" />
         <meta name="apple-mobile-web-app-title" content="Magazine JA" />
         <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-navbutton-color" content="#ffffff" />
+        <meta name="msapplication-TileColor" content="#F04438" />
+        <meta name="msapplication-navbutton-color" content="#F04438" />
         <meta name="msapplication-tap-highlight" content="no" />
 
         {/* Preload critical resources */}
@@ -118,7 +128,6 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//www.youtube.com" />
 
-        {/* Structured Data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -126,18 +135,43 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "Magazine Bienes Raíces - Janneth Aguirre",
-              url: "https://www.jannethaguirre.online",
+              url: "https://www.jannethaguirremagazine.com",
               description: "Explora todo sobre el mundo inmobiliario con información confiable y actualizada",
               publisher: {
                 "@type": "Person",
                 name: "Janneth Aguirre",
                 url: "https://www.jannethaguirre.com",
+                sameAs: [
+                  "https://www.instagram.com/magazinejannethaguirre/",
+                  "https://www.facebook.com/jannethaguirre",
+                ],
               },
               potentialAction: {
                 "@type": "SearchAction",
-                target: "https://www.jannethaguirre.online/search?q={search_term_string}",
+                target: "https://www.jannethaguirremagazine.com/search?q={search_term_string}",
                 "query-input": "required name=search_term_string",
               },
+              inLanguage: "es-EC",
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Magazine Bienes Raíces - Janneth Aguirre",
+              url: "https://www.jannethaguirremagazine.com",
+              logo: "https://www.jannethaguirremagazine.com/images/logo-magazine.webp",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+593-98-257-3799",
+                contactType: "customer service",
+                areaServed: "EC",
+                availableLanguage: "Spanish",
+              },
+              sameAs: ["https://www.instagram.com/magazinejannethaguirre/"],
             }),
           }}
         />

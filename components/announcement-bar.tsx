@@ -1,6 +1,6 @@
 "use client"
 
-import { X } from "lucide-react"
+import { X, Instagram } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
 
@@ -12,14 +12,17 @@ export default function AnnouncementBar() {
   return (
     <div className="bg-primary text-white py-2 px-4 relative">
       <div className="container mx-auto">
-        <div className="flex items-center justify-center text-center">
+        <div className="flex items-center justify-center text-center gap-2">
+          <span className="font-poppins font-semibold text-sm sm:text-base">Magazine oficial de Janneth Aguirre</span>
+          <span className="hidden sm:inline">•</span>
           <Link
-            href="https://www.jannethaguirre.com"
+            href="https://www.instagram.com/magazinejannethaguirre/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-poppins font-semibold text-sm sm:text-base hover:underline transition-all duration-300"
+            className="font-poppins font-semibold text-sm sm:text-base hover:underline transition-all duration-300 inline-flex items-center gap-1"
           >
-            📰 Magazine oficial de Janneth Aguirre
+            <Instagram className="h-4 w-4" />
+            <span>Síguenos @magazinejannethaguirre</span>
           </Link>
           <button
             onClick={() => setIsVisible(false)}

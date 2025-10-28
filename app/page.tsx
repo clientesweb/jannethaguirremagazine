@@ -1,8 +1,9 @@
 import Header from "@/components/header"
 import Banner from "@/components/banner"
-import CTABanner from "@/components/cta-banner"
 import Footer from "@/components/footer"
 import AppBanner from "@/components/app-banner"
+import CTABanner from "@/components/cta-banner"
+import WhatsAppContactBanner from "@/components/whatsapp-contact-banner"
 import YouTubeVideo from "@/components/youtube-video"
 import { getAllArticles } from "@/lib/articles"
 import Link from "next/link"
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
 function ArticlesSkeleton() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {[...Array(4)].map((_, i) => (
+      {[...Array(5)].map((_, i) => (
         <div key={i} className="bg-white rounded-lg shadow-lg overflow-hidden animate-pulse">
           <div className="h-48 bg-gray-200"></div>
           <div className="p-6">
@@ -47,16 +48,15 @@ function ArticlesSkeleton() {
 }
 
 export default function Home() {
-  // Obtener solo los 4 artículos más recientes para mejorar rendimiento
+  // Obtener solo los 5 artículos más recientes para mejorar rendimiento
   const allArticles = getAllArticles()
-  const latestArticles = allArticles.slice(-4).reverse() // Últimos 4 en orden inverso
+  const latestArticles = allArticles.slice(-5).reverse() // Últimos 5 en orden inverso
 
   return (
     <div className="min-h-screen bg-white">
       <Header />
       <Banner />
-      <CTABanner />
-
+      <WhatsAppContactBanner />
       {/* Sección de Últimas Noticias */}
       <section className="py-12 md:py-16 lg:py-20 px-4">
         <div className="container mx-auto">
@@ -128,6 +128,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <CTABanner />
 
       {/* Sección de Video con lazy loading */}
       <Suspense fallback={<div className="h-96 bg-gray-100 animate-pulse"></div>}>

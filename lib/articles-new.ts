@@ -134,7 +134,7 @@ Este proyecto está diseñado para proporcionar soluciones innovadoras y adaptab
 
 Janneth Aguirre
 www.jannethaguirre.com
-Magazine: jannethaguirre.online
+Magazine: www.jannethaguirremagazine.com
 WhatsApp: +593 98 716 7782`,
   },
   {
@@ -317,9 +317,9 @@ Contarás con el respaldo y acompañamiento de Janneth Aguirre, asesora inmobili
 **Contacto directo:**
 
 Janneth Aguirre – Asesora Inmobiliaria
-📲 +593 98 716 7782
+📞 +593 98 716 7782
 🌐 www.jannethaguirre.com
-📖 www.jannethaguirre.online
+📖 www.jannethaguirremagazine.com
 Instagram: @janneth_aguirre_inmobiliaria
 
 **Tu nuevo hogar te espera**
@@ -397,7 +397,7 @@ Los participantes de INMOTRENDS 2025 podrán:
 Janneth Aguirre – Asesora Inmobiliaria
 📲 +593 98 716 7782
 🌐 www.jannethaguirre.com
-📖 www.jannethaguirre.online
+📖 www.jannethaguirremagazine.com
 
 **Conclusión**
 
@@ -601,7 +601,7 @@ Autor: Ingeniero Comercial Especializado en Finanzas Carlos Flores`,
     subtitle: "Una nueva modalidad de inversión inmobiliaria que genera ingresos recurrentes",
     importantFact:
       "📈 Los proyectos de renta están transformando el mercado inmobiliario latinoamericano, ofreciendo rentabilidad sostenida a largo plazo a través del arrendamiento en lugar de la venta tradicional.",
-    fullContent: `En los últimos años, el mercado inmobiliario de México, Brasil, Chile, Colombia, EEUU y recientemente el peruano, han intensificado el interés en los llamados **proyectos de renta**, una categoría de inversión que rompe con el modelo tradicional de comprar para vender. Estos proyectos están diseñados específicamente para generar ingresos recurrentes a través del arrendamiento, y se configuran como una respuesta estructurada y estratégica ante la evolución de las ciudades, el acceso a vivienda, y las nuevas dinámicas económicas y demográficas.
+    fullContent: `En los últimos años, el mercado inmobiliario de México, Brasil, Chile, Colombia, EEUU y recientemente el peruano, han intensificado el interés en los llamados proyectos de renta, una categoría de inversión que rompe con el modelo tradicional de comprar para vender. Estos proyectos están diseñados específicamente para generar ingresos recurrentes a través del arrendamiento, y se configuran como una respuesta estructurada y estratégica ante la evolución de las ciudades, el acceso a vivienda, y las nuevas dinámicas económicas y demográficas.
 
 [IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-11.jpg-aciLxiKbsjCD7X2aEd3YVg6rXVbg4I.jpeg]
 
@@ -741,7 +741,7 @@ Janneth Aguirre – CBR | CRS | REALTOR® Internacional
 CEO de Janneth Aguirre Bienes Raíces – Especialista en inversiones inmobiliarias
 📞 +593 98 716 7782
 🌐 www.jannethaguirre.com
-📰 www.jannethaguirre.online
+📰 www.jannethaguirremagazine.com
 ✉️ jannethaguirre.contacto@gmail.com`,
   },
 ]

@@ -4,7 +4,7 @@ export const ARTICLES_NEW = [
     title: "Cuenca celebra su aniversario: 468 años de historia, cultura y tradición",
     description:
       "Este 12 de abril, la ciudad de Cuenca celebra un nuevo aniversario de su fundación española, ocurrida en 1557. La Atenas del Ecuador conmemora esta fecha con una agenda cultural y artística que incluye la Feria Internacional del Libro y el Festival Artístico 'Por Amor a Cuenca'.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6653b3beac000-tT3tCkalfTzpUsFNHcli8C9a6am8Si.jpeg",
+    image: "/images/6653b3beac000.jpg",
     slug: "cuenca-celebra-aniversario-467-anos",
     category: "ecuador",
     subtitle: "La Atenas del Ecuador festeja su fundación con una amplia agenda cultural",
@@ -12,15 +12,15 @@ export const ARTICLES_NEW = [
       "📢 Nuestra linda Cuenca ha sido reconocida como la ciudad con mejor calidad de vida en Sudamérica en 2025, ¡y no es por gusto! Seguridad, tranquilidad, clima rico y una vida más accesible son solo algunas de las razones por las que se ha ganado este reconocimiento.",
     fullContent: `Este 12 de abril, la ciudad de Cuenca celebra un nuevo aniversario de su fundación española, ocurrida en 1557 por orden del virrey del Perú, Andrés Hurtado de Mendoza. En honor a esta fecha cívica, se ha decretado un feriado local, exclusivo para la capital azuaya, conocida como la Atenas del Ecuador.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6653b3beac000-tT3tCkalfTzpUsFNHcli8C9a6am8Si.jpeg]
+[IMAGE:/images/6653b3beac000.jpg
 
 La ciudad se viste de fiesta con una agenda cultural y artística pensada para toda la familia. Uno de los eventos más importantes es la Feria Internacional del Libro de Cuenca, que se realiza del 10 al 14 de abril. Esta edición reúne a más de 60 invitados especiales, entre escritores locales, nacionales e internacionales, y se convierte en un espacio clave para el fomento de la lectura y el intercambio cultural.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cuenca-ec-700x391.jpg-ua8neGRnh8vR6RID7grFN753wVOXAj.jpeg]
+[IMAGE:/images/cuenca-ec-700x391.jpg
 
 Además, se lleva a cabo el Festival Artístico "Por Amor a Cuenca", con tres días de música en vivo que abarca distintos géneros, presentándose en escenarios como el Parque Calderón, la explanada del Estadio y el Parque La Libertad. Este festival busca resaltar el talento local y ofrecer espectáculos gratuitos para toda la comunidad.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/67f9781ec0285-Ig9N0p4sU0ivvTcBL1dmu0px1Q51hS.jpeg]
+[IMAGE:/images/67f9781ec0285.jpg
 
 **Un destino con identidad**
 
@@ -45,8 +45,7 @@ Cuenca no solo celebra un aniversario, celebra su esencia. Una ciudad de histori
     title: "Bienvenida a Fernando Velarde: Un Referente en Análisis de Mercados Internacionales",
     description:
       "Janneth Aguirre Magazine se honra en darle la bienvenida a un nuevo aliado estratégico en nuestro compromiso por impulsar el conocimiento y la transformación del sector inmobiliario en Latinoamérica: Mg. Fernando Velarde, especialista en inteligencia urbanística y análisis de mercados internacionales.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250520-WA0008.jpg-PgFbpjMrRaAAhsmj81xaidYrzdGnHl.jpeg",
+    image: "/images/img-20250520-wa0008.jpg",
     slug: "bienvenida-fernando-velarde-analisis-mercados",
     category: "noticias",
     subtitle: "Un experto que eleva el estándar inmobiliario en Latinoamérica",
@@ -54,7 +53,7 @@ Cuenca no solo celebra un aniversario, celebra su esencia. Una ciudad de histori
       "📢 Fernando Velarde ha ejecutado más de 1,600 estudios de mercado en Perú, marcando un antes y un después en la forma de entender el comportamiento inmobiliario, las dinámicas de ciudad y las decisiones de inversión.",
     fullContent: `Janneth Aguirre Magazine se honra en darle la bienvenida a un nuevo aliado estratégico en nuestro compromiso por impulsar el conocimiento y la transformación del sector inmobiliario en Latinoamérica: Mg. Fernando Velarde, especialista en inteligencia urbanística y análisis de mercados internacionales.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250506-WA0098.jpg-rdsAqaIMu1PYXFJN8FtnNtfZB080ES.jpeg]
+[IMAGE:/images/img-20250506-wa0098.jpg
 
 Con más de 18 años de experiencia, Velarde ha dejado huella como arquitecto urbanista, magíster en Dirección de Marketing y fundador de VeMás Consultoría, un estudio pionero en análisis del mercado inmobiliario que integra herramientas urbanísticas, territoriales y de branding con una mirada crítica, técnica y estratégica.
 
@@ -62,7 +61,7 @@ Con más de 18 años de experiencia, Velarde ha dejado huella como arquitecto ur
 
 Fernando Velarde no solo dirige VeMás, también es creador de espacios de conocimiento como la revista digital Ciudad+, el canal Tablero Inmobiliario, y la comunidad educativa La Incubadora Inmobiliaria, desde donde genera impacto real a través de análisis rigurosos, formación profesional y puentes entre agentes, desarrolladores, inversionistas y propietarios.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250520-WA0007.jpg-wP4QPMPGvcbXKT7Rstz8NPTzqUxegI.jpeg]
+[IMAGE:/images/img-20250520-wa0007.jpg
 
 Su visión se enfoca en:
 
@@ -73,7 +72,7 @@ Su visión se enfoca en:
 
 **"El Viaje del Agente Inmobiliario": una guía clave para el sector**
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250520-WA0008.jpg-PgFbpjMrRaAAhsmj81xaidYrzdGnHl.jpeg]
+[IMAGE:/images/img-20250520-wa0008.jpg
 
 Uno de sus aportes más valiosos es su libro El Viaje del Agente Inmobiliario, una guía clara y ágil que propone una estructura innovadora para entender el mercado inmobiliario del Perú. Es una lectura obligada para agentes, brókers, desarrolladores, empresarios e inversionistas que deseen tomar mejores decisiones con base en planificación urbana, análisis técnico y estrategia.
 
@@ -88,8 +87,7 @@ En Janneth Aguirre Magazine celebramos la incorporación de Fernando Velarde com
     title: "Proyecto Fénix 360°: Su espacio ideal para crecer",
     description:
       "Descubre este innovador desarrollo de ofibodegas y locales comerciales ubicado estratégicamente en el km 14 de la vía a Samborondón, diseñado para empresas que buscan crecer de manera eficiente.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250410-WA0038.jpg-JfZjJ4aPuY7jJ1G1gxkd4fvhhcjrF1.jpeg",
+    image: "/images/img-20250410-wa0038.jpg",
     slug: "proyecto-fenix-360-ofibodegas-samborondon",
     category: "mercado",
     subtitle: "Soluciones innovadoras y adaptables para empresas en crecimiento",
@@ -99,7 +97,7 @@ En Janneth Aguirre Magazine celebramos la incorporación de Fernando Velarde com
 
 Ofrece un espacio de alta calidad, pensado para cubrir las necesidades de empresas dinámicas que buscan operar, optimizar recursos y expandirse.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2.png-DlwnaKOaUu0nUUgsY8uGJtSk9Ht0o3.jpeg]
+[IMAGE:/images/2.jpg
 
 **CARACTERÍSTICAS PRINCIPALES**
 
@@ -112,7 +110,7 @@ Una solución integral que combina espacio industrial con oficinas en un solo lu
 • **Locales Comerciales – 45 m²**
 El proyecto incluye 8 locales comerciales ocupados por marcas reconocidas del país. Ideales para puntos de venta, showrooms o atención al cliente. Un espacio dinámico para atraer visitas y generar presencia comercial.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3.png-R9J400gSVGQNDMMwgvxojXaev8og3S.jpeg]
+[IMAGE:/images/3.jpg
 
 **PRECIO REFERENCIAL POR TIPO DE UNIDAD**
 
@@ -126,7 +124,7 @@ El proyecto incluye 8 locales comerciales ocupados por marcas reconocidas del pa
 • 20% durante la construcción (hasta 24 meses)
 • 70% a la entrega de la propiedad – Aceptamos pago de contado o crédito bancario (incluido BIESS)
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250410-WA0038.jpg-JfZjJ4aPuY7jJ1G1gxkd4fvhhcjrF1.jpeg]
+[IMAGE:/images/img-20250410-wa0038.jpg
 
 Este proyecto está diseñado para proporcionar soluciones innovadoras y adaptables para su empresa, combinando espacios industriales de producción, almacenamiento y oficinas en un entorno moderno y flexible.
 
@@ -142,8 +140,7 @@ WhatsApp: +593 98 716 7782`,
     title: "Cómo se estructura el valor del suelo en proyectos inmobiliarios usando el método de análisis residual",
     description:
       "El valor del suelo urbano es uno de los elementos más estratégicos en el desarrollo de proyectos inmobiliarios. Descubre cómo el método de análisis residual puede ser la diferencia entre una inversión viable y un fracaso financiero.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depositphotos_271924434-stock-photo-aerial-view-of-the-nysa.jpg-Rv0RgWAILg1EhsqXQss785dbqhAwjv.webp",
+    image: "/images/depositphotos-271924434-stock-photo-aerial-view-of-the-nysa.webp",
     slug: "metodo-analisis-residual-valor-suelo-inmobiliario",
     category: "finanzas",
     subtitle: "Una guía técnica para agentes, desarrolladores e inversionistas",
@@ -153,13 +150,13 @@ WhatsApp: +593 98 716 7782`,
 
 Uno de los métodos más aceptados para determinar el valor del suelo en el mundo inmobiliario es el **método del análisis residual**. En este artículo, junto al experto analista de mercados inmobiliarios internacionales **Fernando Velarde**, explicaremos en qué consiste, cómo se estructura, qué factores lo afectan y cómo aplicarlo correctamente en el contexto del mercado latinoamericano.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depositphotos_271924434-stock-photo-aerial-view-of-the-nysa.jpg-Rv0RgWAILg1EhsqXQss785dbqhAwjv.webp]
+[IMAGE:/images/depositphotos-271924434-stock-photo-aerial-view-of-the-nysa.jpg
 
 **¿Qué es el método residual?**
 
 El método residual parte del principio de que **el valor del suelo es aquello que "queda" después de restar todos los costos de desarrollo y una utilidad razonable al valor del proyecto terminado**. Se usa sobre todo para valorar terrenos destinados a desarrollos futuros (residenciales, comerciales o mixtos).
 
-**¿Qué elementos se consideran en este análisis?**
+**¿Qué elementos se consideredan en este análisis?**
 
 Según el documento "Costos de Proyectos Inmobiliarios" analizado para este artículo, los principales componentes a considerar para el método residual son los siguientes:
 
@@ -185,7 +182,7 @@ En Latinoamérica, este valor puede verse influenciado por la ubicación, el seg
 
 Para que el proyecto sea atractivo, se requiere una utilidad mínima sobre ventas antes de impuestos. Si esta utilidad se reduce, el negocio pierde atractivo por la carga tributaria.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista-angulo-alto-mano-humana-papel_1048944-647069.jpg-Ii80o2R23FOI3kGgKxpi9EHUiQGtSO.jpeg]
+[IMAGE:/images/vista-angulo-alto-mano-humana-papel-1048944-647069.jpg
 
 **¿Cómo influye el NSE en el valor del suelo?**
 
@@ -246,7 +243,7 @@ Agente Inmobiliaria / Embajadora Ecuador InmoPerú Mujer (Ecuador)`,
     title: "San Bernardo 4: Vive con estilo y confort en Samborondón",
     description:
       "Ubicado en una de las zonas de mayor crecimiento y plusvalía de Samborondón, San Bernardo 4 es un moderno conjunto residencial que combina diseño, funcionalidad y exclusividad, ideal para quienes buscan invertir o vivir en un entorno seguro, familiar y lleno de comodidades.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524482801.jpg-gOIB9PcjTm91h1BwEBbC0TtvQkufZ7.jpeg",
+    image: "/images/1524482801.jpg",
     slug: "san-bernardo-4-samborondon",
     category: "ecuador",
     subtitle: "Un oasis residencial en el corazón de Samborondón",
@@ -256,7 +253,7 @@ Agente Inmobiliaria / Embajadora Ecuador InmoPerú Mujer (Ecuador)`,
 
 Ubicado en una de las zonas de mayor crecimiento y plusvalía de Samborondón, San Bernardo 4 es un moderno conjunto residencial que combina diseño, funcionalidad y exclusividad, ideal para quienes buscan invertir o vivir en un entorno seguro, familiar y lleno de comodidades.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524482801.jpg-gOIB9PcjTm91h1BwEBbC0TtvQkufZ7.jpeg]
+[IMAGE:/images/1524482801.jpg
 
 **Ubicación estratégica**
 
@@ -266,7 +263,7 @@ San Bernardo 4 se encuentra en el Km 2.5 de la Vía Samborondón, dentro del exc
 
 El proyecto cuenta con 13 edificaciones de 3 pisos y 4 edificaciones de 4 pisos, cuidadosamente diseñadas con una arquitectura moderna, elegante y funcional.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524482807.jpg-F7qdG8JOKAkXXLyI7MnCPAvEKYvAJX.jpeg]
+[IMAGE:/images/1524482807.jpg
 
 Cada edificio alberga departamentos ideales para familias, parejas o inversionistas, con opciones que se adaptan a diferentes estilos de vida.
 
@@ -277,19 +274,19 @@ Cada edificio alberga departamentos ideales para familias, parejas o inversionis
 
 Todos los departamentos cuentan con sala, comedor, cocina, lavandería y parqueo privado. Además, puedes elegir entre opciones con o sin patio, según tus necesidades.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524123693.jpg-lFNPWX0CgshNhk4xLNQfv6xEIOL8Mo.jpeg]
+[IMAGE:/images/1524123693.jpg
 
 Los interiores han sido diseñados con un enfoque en la elegancia y funcionalidad, ofreciendo espacios amplios y luminosos con acabados de primera calidad. La distribución optimiza cada metro cuadrado para brindar el máximo confort.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524123701.jpg-PBc2HD6AL6vUvUmMnmnGuDIzX7fYLQ.jpeg]
+[IMAGE:/images/1524123701.jpg
 
 Los dormitorios son espacios de descanso perfectamente concebidos, con iluminación cálida, amplios closets y acabados que crean una atmósfera de tranquilidad y bienestar.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524123695.jpg-8bqj3kfHpgl3HW8Lpsx7DvegirpFUL.jpeg]
+[IMAGE:/images/1524123695.jpg
 
 Los baños combinan estética y funcionalidad, con diseños modernos que incluyen acabados de alta calidad y elementos que aportan elegancia a estos espacios íntimos.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1524123702.jpg-KKR7PMTsFk9v8KWfZerFLkjwqXzEwL.jpeg]
+[IMAGE:/images/1524123702.jpg
 
 **Amenidades que elevan tu estilo de vida**
 
@@ -331,8 +328,7 @@ San Bernardo 4 es mucho más que un conjunto residencial: es una inversión en t
     title: "INMOTRENDS 2025: Cuenca será el epicentro inmobiliario del Ecuador",
     description:
       "El Expo Congreso Inmobiliario Nacional INMOTRENDS 2025 convertirá a Cuenca en el punto de encuentro para los profesionales del sector inmobiliario, ofreciendo conferencias magistrales, foros especializados, workshops prácticos y una feria inmobiliaria de primer nivel.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SaveInsta.to_485517319_391619397378348_3742394429271837962_n.jpg-kf5rGNKBNP5QRnhR8KFixZnHNd7HFY.jpeg",
+    image: "/images/saveinsta.jpg",
     slug: "inmotrends-2025-cuenca-epicentro-inmobiliario",
     category: "noticias",
     subtitle: "Conecta con la Industria Inmobiliaria 5.0",
@@ -342,13 +338,13 @@ San Bernardo 4 es mucho más que un conjunto residencial: es una inversión en t
 
 La ciudad de Cuenca, joya patrimonial del Ecuador, se prepara para convertirse en el punto de encuentro más importante del sector inmobiliario nacional con la celebración del **Expo Congreso Inmobiliario Nacional – INMOTRENDS 2025**, que se llevará a cabo del 25 al 27 de junio en el Centro de Convenciones Mall del Río.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SaveInsta.to_485517319_391619397378348_3742394429271837962_n.jpg-kf5rGNKBNP5QRnhR8KFixZnHNd7HFY.jpeg]
+[IMAGE:/images/saveinsta.jpg
 
 **Conectando con la Era Inmobiliaria 5.0**
 
 Bajo el lema **"Conecta con la Industria Inmobiliaria 5.0"**, este evento promete revolucionar la forma en que los profesionales del sector interactúan, aprenden y generan oportunidades de negocio. INMOTRENDS 2025 no es solo un congreso más, sino una experiencia integral diseñada para potenciar el crecimiento profesional y empresarial de todos los asistentes.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot_20250408-150011-SGHqXBeeTJLDMdXTH1i3tLEpfk27Jr.png]
+[IMAGE:/images/screenshot-20250408-150011.jpg
 
 **Una experiencia inmobiliaria completa**
 
@@ -410,7 +406,7 @@ INMOTRENDS 2025 representa una oportunidad única para los profesionales del sec
     title: "Cuenca lidera el Índice de Calidad de Vida 2025 en Sudamérica",
     description:
       "En el más reciente ranking de calidad de vida de Sudamérica publicado en 2025, Cuenca se posiciona como la ciudad número uno de la región, superando a grandes urbes y reafirmando su reputación como uno de los mejores lugares para vivir en el continente.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/67f3dabec38ea-98it741DJUpC1yovn1XzdJEwJvQG4E.jpeg",
+    image: "/images/67f3dabec38ea.jpeg",
     slug: "cuenca-lidera-indice-calidad-vida-2025",
     category: "ecuador",
     subtitle: "La joya patrimonial ecuatoriana supera a grandes metrópolis sudamericanas",
@@ -487,13 +483,13 @@ Este reconocimiento no solo beneficia a Cuenca, sino que establece un referente 
     title: "BR Magazine: 21 años de inspiración, diseño y visión creativa",
     description:
       "Desde su fundación en 2004, BR Magazine se ha consolidado como una de las publicaciones más influyentes en Ecuador en el mundo del diseño, la arquitectura y el interiorismo. Este 2025, la revista celebra sus 21 años de trayectoria con la misma pasión con la que nació.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AV%20dec232319-9h5qTIep0o4gJQ7Ipc9LOKl3fCCUyO.jpeg",
+    image: "/images/av-20dec232319.jpg",
     slug: "br-magazine-21-anos-inspiracion-diseno",
     category: "noticias",
     subtitle: "Dos décadas contando historias que transforman espacios y vidas",
     importantFact:
       "📢 BR Magazine ha logrado proyección internacional gracias a alianzas estratégicas con marcas y estudios de arquitectura de Latinoamérica y Europa, posicionándose como una plataforma de referencia en diseño e interiorismo.",
-    fullContent: `[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AV%20dec232319-9h5qTIep0o4gJQ7Ipc9LOKl3fCCUyO.jpeg]
+    fullContent: `[IMAGE:/images/av-20dec232319.jpg
 
 Desde su fundación en 2004, BR Magazine se ha consolidado como una de las publicaciones más influyentes en Ecuador en el mundo del diseño, la arquitectura y el interiorismo. Este 2025, la revista celebra sus 21 años de trayectoria con la misma pasión con la que nació.
 
@@ -501,7 +497,7 @@ Desde su fundación en 2004, BR Magazine se ha consolidado como una de las publi
 
 BR Magazine ha sido una plataforma clave para la difusión de las últimas tendencias, proyectos innovadores y perfiles de los profesionales más destacados del sector. Su compromiso con la calidad y la excelencia la han convertido en una referencia obligada para arquitectos, diseñadores, interioristas y amantes del buen gusto.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Banner-08-tOjXDTbkU4LVOUljRN4554st0blNcA.png]
+[IMAGE:/images/banner-08.jpg
 
 **Andrés Achi: El Líder que Impulsa la Innovación**
 
@@ -518,8 +514,7 @@ Desde Janneth Aguirre Magazine, queremos extender nuestras más sinceras felicit
     title: "El Fideicomiso en el Ecuador: Una herramienta de gestión financiera e inmobiliaria",
     description:
       "El fideicomiso en Ecuador, establecido desde 1994 con la Ley de Mercado de Valores, se ha convertido en una herramienta fundamental de gestión con múltiples modalidades. Descubre los tipos de negocios fiduciarios y su aplicación en el sector inmobiliario.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/CARLOS%20FLORES%201-7fSN6lGdVZw9tMLKx4RT3h4rzATp5T.jpeg",
+    image: "/images/carlos-20flores-201.jpg",
     slug: "fideicomiso-ecuador-herramienta-gestion-financiera",
     category: "finanzas",
     subtitle: "Conoce los fundamentos legales y aplicaciones prácticas del fideicomiso ecuatoriano",
@@ -527,7 +522,7 @@ Desde Janneth Aguirre Magazine, queremos extender nuestras más sinceras felicit
       "📊 En Ecuador existen dos tipos principales de negocios fiduciarios: Fideicomiso Mercantil (con 5 modalidades) y Encargo Fiduciario (con 4 clasificaciones), cada uno regulado por la Ley de Mercado de Valores desde 1994.",
     fullContent: `El fideicomiso en Ecuador nace con la normativa de la Ley de Mercado de Valores en el año 1994 y se ha convertido en una herramienta de gestión que tiene distintas modalidades, evolucionando hasta convertirse en un instrumento fundamental para el desarrollo de proyectos, especialmente en el sector inmobiliario.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/CARLOS%20FLORES%201-7fSN6lGdVZw9tMLKx4RT3h4rzATp5T.jpeg]
+[IMAGE:/images/carlos-20flores-201.jpg
 
 Tipos de Negocios Fiduciarios en Ecuador
 
@@ -595,7 +590,7 @@ Autor: Ingeniero Comercial Especializado en Finanzas Carlos Flores`,
     title: "¿Qué es un proyecto de renta y por qué está ganando terreno en el mercado inmobiliario?",
     description:
       "En los últimos años, el mercado inmobiliario de México, Brasil, Chile, Colombia, EEUU y recientemente el peruano, han intensificado el interés en los llamados proyectos de renta, una categoría de inversión que rompe con el modelo tradicional de comprar para vender.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-11.jpg-aciLxiKbsjCD7X2aEd3YVg6rXVbg4I.jpeg",
+    image: "/images/image-11.jpg",
     slug: "proyectos-renta-mercado-inmobiliario-tendencia",
     category: "mercado",
     subtitle: "Una nueva modalidad de inversión inmobiliaria que genera ingresos recurrentes",
@@ -603,7 +598,7 @@ Autor: Ingeniero Comercial Especializado en Finanzas Carlos Flores`,
       "📈 Los proyectos de renta están transformando el mercado inmobiliario latinoamericano, ofreciendo rentabilidad sostenida a largo plazo a través del arrendamiento en lugar de la venta tradicional.",
     fullContent: `En los últimos años, el mercado inmobiliario de México, Brasil, Chile, Colombia, EEUU y recientemente el peruano, han intensificado el interés en los llamados proyectos de renta, una categoría de inversión que rompe con el modelo tradicional de comprar para vender. Estos proyectos están diseñados específicamente para generar ingresos recurrentes a través del arrendamiento, y se configuran como una respuesta estructurada y estratégica ante la evolución de las ciudades, el acceso a vivienda, y las nuevas dinámicas económicas y demográficas.
 
-[IMAGE:https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-11.jpg-aciLxiKbsjCD7X2aEd3YVg6rXVbg4I.jpeg]
+[IMAGE:/images/image-11.jpg
 
 **¿Qué es un proyecto de renta?**
 
@@ -743,6 +738,96 @@ CEO de Janneth Aguirre Bienes Raíces – Especialista en inversiones inmobiliar
 🌐 www.jannethaguirre.com
 📰 www.jannethaguirremagazine.com
 ✉️ jannethaguirre.contacto@gmail.com`,
+  },
+  {
+    id: 26,
+    title: "La magia de invertir en Navidad: una época para construir futuro",
+    description:
+      "La Navidad es una temporada que despierta ilusiones, une a las familias y nos invita a reflexionar sobre lo que realmente queremos para nuestras vidas. Es una época ideal para tomar decisiones inmobiliarias que trascienden.",
+    image: "/images/navidad-portada.png",
+    slug: "magia-invertir-navidad-construccion-futuro",
+    category: "inversion",
+    subtitle: "Diciembre: el cierre de año que impulsa grandes decisiones",
+    importantFact:
+      "🎄 La Navidad es más que una celebración: es una oportunidad para asegurar un patrimonio, construir un hogar y proyectar un futuro próspero para ti y tu familia.",
+    fullContent: `La Navidad es una temporada que despierta ilusiones, une a las familias y nos invita a reflexionar sobre lo que realmente queremos para nuestras vidas. Es una época en la que los sueños toman forma y el deseo de construir un futuro mejor se vuelve más fuerte. En el mundo inmobiliario, esta fecha se convierte en un momento ideal para tomar decisiones que trascienden: invertir, adquirir un hogar o asegurar un patrimonio para las próximas generaciones.
+
+[IMAGE:/images/navidad-janneth.png]
+
+**Un cierre de año que impulsa grandes decisiones**
+
+Durante diciembre, muchas personas revisan sus metas, cierran ciclos y proyectan nuevos comiengos. Este espíritu de renovación impulsa al sector inmobiliario: proyectos en planos, departamentos listos, terrenos exclusivos y oportunidades comerciales toman protagonismo porque representan estabilidad, seguridad y crecimiento. Invertir en estas fechas no solo es un acto financiero, sino un gesto emocional: pensar en la familia, en el futuro y en un lugar propio donde crear nuevas tradiciones.
+
+**La temporada con mayor proyección de plusvalía**
+
+El último trimestre del año suele presentar excelentes oportunidades: preventas, beneficios exclusivos, condiciones flexibles y proyectos estratégicos que comienzan o obras que avanzan en construcción. Esto permite a los inversionistas asegurar propiedades con alto potencial de revalorización, especialmente en polos de desarrollo como Nuevo Samborondón, Isla Mocolí, Cuenca y Samborondón.
+
+**Por qué Navidad es el mejor momento para invertir**
+
+✨ **Preventas con condiciones exclusivas** – Las desarrolladoras ofrecen precios preferenciales en diciembre para cerrar el año.
+
+✨ **Financiamientos más flexibles** – Los bancos activan promociones especiales en esta temporada.
+
+✨ **Plusvalía en desarrollo** – Los proyectos avanzan durante todo el trimestre, incrementando su valor.
+
+✨ **Conexión emocional** – Invertir en Navidad significa pensar en la familia y el futuro compartido.
+
+✨ **Oportunidades comerciales** – Zonas en desarrollo presentan alta demanda y bajo inventario.
+
+La Navidad, con su ambiente de esperanza, es un recordatorio de que los mejores regalos no siempre vienen envueltos: a veces son decisiones que transforman patrimonios.
+
+**Un hogar para compartir la vida**
+
+Más allá del aspecto financiero, la Navidad tiene un significado emocional profundo: familia, unión y hogar. Encontrar ese espacio ideal —un departamento frente al río, una casa con vista al lago, una suite moderna o un terreno donde comenzar un sueño— conecta con el verdadero sentido de estas fechas. El lugar donde elegimos vivir define momentos, crea memorias y sostiene proyectos personales y familiares.
+
+**Lo que hace especial esta época**
+
+En Navidad, las decisiones financieras adquieren un propósito mayor. No se trata solo de comprar o invertir; se trata de construir legados. Cada departamento, cada casa, cada terreno representa:
+
+• **Seguridad para tu familia** – Un espacio donde proteger a los que amas
+• **Crecimiento del patrimonio** – Una inversión que se revalúa con el tiempo
+• **Nuevas tradiciones** – Recuerdos creados en un hogar propio
+• **Oportunidades futuras** – Un activo que genera ingresos o beneficios
+
+**El factor psicológico de invertir en Navidad**
+
+Los psicólogos coinciden en que diciembre es la época de mayor esperanza y proyección emocional. Las personas revisan el año, sueñan con el futuro y están más dispuestas a tomar decisiones trascendentes. Esto se traduce en mayor disposición a invertir en bienes que generan estabilidad.
+
+**Oportunidades inmobiliarias esta temporada**
+
+En Ecuador, especialmente en Guayaquil y sus zonas de expansión (Samborondón, Nuevo Samborondón, Cuenca, Isla Mocolí), hay múltiples opciones:
+
+📍 **Departamentos listos** – Para ocupar de inmediato
+📍 **Proyectos en preventa** – Con precios especiales de cierre de año
+📍 **Terrenos estratégicos** – En zonas de alto potencial de crecimiento
+📍 **Suite hoteleras** – Para inversión y uso personal
+📍 **Locales comerciales** – En centros con alta demanda
+
+**Cómo tomar la decisión correcta**
+
+Si estás considerando invertir en Navidad, recuerda:
+
+1. **Define tu objetivo** – ¿Es para vivienda, inversión o ambas?
+2. **Analiza la ubicación** – Considera conectividad, servicios y potencial de revalorización
+3. **Compara opciones** – No te apresures; revisa múltiples alternativas
+4. **Consulta con expertos** – Un buen agente inmobiliario es invaluable
+5. **Negocia las condiciones** – En diciembre, los desarrolladores están más flexibles
+
+**Un mensaje para este cierre de año**
+
+En esta Navidad, desde Janneth Aguirre Magazine celebramos a quienes sueñan, planifican y deciden invertir en su futuro. Que estas fiestas traigan inspiración, prosperidad y la certeza de que construir un patrimonio es una de las decisiones más valiosas que podemos tomar.
+
+El hogar que esperas, la inversión que necesitas, el futuro que mereces... todos están más cerca de lo que crees. Esta Navidad, decide transformar tus sueños en realidad.
+
+🎄 **¡Feliz Navidad y un próspero año nuevo lleno de proyectos, crecimiento y nuevas oportunidades!**
+
+---
+
+**Contáctanos para explorar opciones inmobiliarias:**
+📞 Janneth Aguirre
+🌐 www.jannethaguirre.com
+📱 WhatsApp: +593 98 257 3799
+💻 Magazine: www.jannethaguirremagazine.com`,
   },
 ]
 
